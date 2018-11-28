@@ -148,12 +148,12 @@ class ServiceManagerInstaller implements Installer {
       Executable: this._config.clientBin,
       Port: this._config.tequilapiPort,
       Arguments: [
-        'daemon',
         `--config-dir=${this._config.configDir}`,
         `--data-dir=${this._config.dataDir}`,
         `--runtime-dir=${this._config.runtimeDir}`,
         `--openvpn.binary=${this._config.openVPNBin}`,
-        `--tequilapi.port=${this._config.tequilapiPort}`
+        `--tequilapi.port=${this._config.tequilapiPort}`,
+        'daemon'
       ],
       Logging: {
         Stderr: path.join(this._config.logDir, this._config.stdErrFileName),
