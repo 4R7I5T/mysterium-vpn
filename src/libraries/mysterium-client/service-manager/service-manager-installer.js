@@ -148,6 +148,7 @@ class ServiceManagerInstaller implements Installer {
       Executable: this._config.clientBin,
       Port: this._config.tequilapiPort,
       Arguments: [
+        'daemon',
         `--config-dir=${this._config.configDir}`,
         `--data-dir=${this._config.dataDir}`,
         `--runtime-dir=${this._config.runtimeDir}`,
