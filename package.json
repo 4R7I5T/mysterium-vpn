@@ -78,7 +78,7 @@
       "requestedExecutionLevel": "requireAdministrator",
       "extraFiles": [
         "./bin/openvpn.exe",
-        "./bin/mysterium_client.exe",
+        "./bin/myst.exe",
         "./bin/tap-windows.exe",
         "./bin/servicemanager.exe"
       ]
