@@ -39,6 +39,7 @@ const STRINGIFIED_CONFIG = JSON.stringify({
   Executable: '/tmp/clientbin',
   Port: 4050,
   Arguments: [
+    'daemon',
     '--config-dir=/tmp/config',
     '--data-dir=/tmp/data',
     '--runtime-dir=/tmp/runtime',
