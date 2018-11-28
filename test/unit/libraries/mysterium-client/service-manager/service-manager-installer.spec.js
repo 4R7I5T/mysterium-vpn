@@ -39,12 +39,12 @@ const STRINGIFIED_CONFIG = JSON.stringify({
   Executable: '/tmp/clientbin',
   Port: 4050,
   Arguments: [
-    'daemon',
     '--config-dir=/tmp/config',
     '--data-dir=/tmp/data',
     '--runtime-dir=/tmp/runtime',
     '--openvpn.binary=/tmp/ovpnbin',
-    '--tequilapi.port=4050'
+    '--tequilapi.port=4050',
+    'daemon'
   ],
   Logging: {
     Stderr: '/tmp/logs/stderr.log',
