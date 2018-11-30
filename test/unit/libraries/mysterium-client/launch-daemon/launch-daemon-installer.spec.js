@@ -60,6 +60,7 @@ const TEMPLATE = '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '            <string>open-vpn-bin</string>\n' +
   '            <string>--tequilapi.port</string>\n' +
   '            <string>4050</string>\n' +
+  '            <string>--experiment-promise-check=1</string>\n' +
   '            <string>daemon</string>\n' +
   '          </array>\n' +
   '          <key>Sockets</key>\n' +

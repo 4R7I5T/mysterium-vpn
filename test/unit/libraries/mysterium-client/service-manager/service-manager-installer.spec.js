@@ -44,6 +44,7 @@ const STRINGIFIED_CONFIG = JSON.stringify({
     '--runtime-dir=/tmp/runtime',
     '--openvpn.binary=/tmp/ovpnbin',
     '--tequilapi.port=4050',
+    '--experiment-promise-check=1',
     'daemon'
   ],
   Logging: {

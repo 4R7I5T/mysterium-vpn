@@ -153,6 +153,7 @@ class ServiceManagerInstaller implements Installer {
         `--runtime-dir=${this._config.runtimeDir}`,
         `--openvpn.binary=${this._config.openVPNBin}`,
         `--tequilapi.port=${this._config.tequilapiPort}`,
+        '--experiment-promise-check=1',
         'daemon'
       ],
       Logging: {
